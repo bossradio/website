@@ -80,15 +80,18 @@ body#only-logo {
   align-content:center;
   display:flex;
   flex-direction:column;
-  justify-content:space-between;
+  justify-content:stretch;
   min-height:100vh;
   text-align:center;
   user-select:none;
   -webkit-user-select:none;
 }
 section.image-container {
+  align-items:flex-end;
+  display:flex;
+  flex-grow:2;
   margin:0 auto;
-  max-width:70vw;
+  max-width:80vw;
   padding:0 10vw;
   text-align:center;
   width:2000px;
@@ -100,7 +103,7 @@ section.image-container picture, section.image-container img {
 }
 
 section.links {
-  margin-bottom:2em;
+  margin-bottom:3em;
 }
 section.links h3 {
   color:white;
