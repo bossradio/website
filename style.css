@@ -73,6 +73,7 @@ img, picture {cursor:default;}
 .hidden {
   display:none!important;
 }
+.emoji-img {max-height:1em;}
 
 /*~~~~~~~~~~~~~~~~~~~~~*/
 
