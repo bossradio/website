@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://feeds.transistor.fm/stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="https://boss.radio/podcast/rss" title="MP3 Audio"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <podcast:podping usesPodping="true"/>
+    <title>Build Your SaaS</title>
+    <generator>Transistor (https://transistor.fm)</generator>
+    <itunes:new-feed-url>https://feeds.transistor.fm/build-your-saas</itunes:new-feed-url>
+    <description>Interested in building your own SaaS company? Follow the journey of Transistor.fm as they bootstrap a podcast hosting startup.</description>
+    <copyright>© 2023 Transistor, Inc.</copyright>
+    <podcast:guid>778116ac-6b1e-5ae2-b037-26a7ff2aee64</podcast:guid>
+    <podcast:locked owner="shows@transistor.fm">yes</podcast:locked>
+    <podcast:funding url="https://www.patreon.com/jonjustin">Support this podcast on Patreon</podcast:funding>
+    <podcast:person role="Editor" href="https://www.lemonproductions.ca/" img="https://images.transistor.fm/images/person/95bfd816-216d-44ac-9518-97fe81ecff42/1664479153-image.jpg">Chris Enns</podcast:person>
+    <podcast:person role="Host" href="https://justinjackson.ca" img="https://images.transistor.fm/images/person/b6081cc9-cffb-4ab3-8c5c-d5def204ff82/1664465872-image.jpg">Justin Jackson</podcast:person>
+    <podcast:person role="Host" href="https://transistor.fm" img="https://images.transistor.fm/images/person/89439f8f-4146-4638-b077-6c0d0d96215e/1681994331-image.jpg">Jon Buda</podcast:person>
+    <podcast:trailer pubdate="Tue, 19 Jun 2018 12:00:00 -0700" url="https://chrt.fm/track/637E/2.gum.fm/op3.dev/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/cd78d193/5d907ace.mp3" length="1116291" type="audio/mpeg">Teaser: I don't want to get crushed by the VC monster</podcast:trailer>
+    <podcast:trailer pubdate="Tue, 29 May 2018 01:05:00 -0700" url="https://chrt.fm/track/637E/2.gum.fm/op3.dev/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/1b8db7a0/76c28761.mp3" length="11089545" type="audio/mpeg">What does Nathan Barry think of podcast hosting pricing?</podcast:trailer>
+    <podcast:trailer pubdate="Fri, 16 Feb 2018 17:00:00 -0800" url="https://chrt.fm/track/637E/2.gum.fm/op3.dev/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/07d3a3b7/65742513.mp3" length="4321618" type="audio/mpeg">What does it take to build a SaaS these days?</podcast:trailer>
+    <language>en</language>
+    <pubDate>Thu, 15 Feb 2024 03:35:20 -0800</pubDate>
+    <lastBuildDate>Thu, 15 Feb 2024 03:36:41 -0800</lastBuildDate>
+    <link>https://saas.transistor.fm</link>
+    <image>
+      <url>https://images.transistor.fm/images/show/15/full_1521237846-artwork.jpg</url>
+      <title>Build Your SaaS</title>
+      <link>https://saas.transistor.fm</link>
+    </image>
+    <itunes:category text="Business">
+      <itunes:category text="Marketing"/>
+    </itunes:category>
+    <itunes:category text="Technology"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Transistor.fm</itunes:author>
+    <itunes:image href="https://images.transistor.fm/images/show/15/full_1521237846-artwork.jpg"/>
+    <itunes:summary>Interested in building your own SaaS company? Follow the journey of Transistor.fm as they bootstrap a podcast hosting startup.</itunes:summary>
+    <itunes:subtitle>Interested in building your own SaaS company.</itunes:subtitle>
+    <itunes:keywords>technology, podcasting, business, saas, software, marketing, bootstrap, bootstrapping, rails, ruby on rails</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Transistor.fm</itunes:name>
+    </itunes:owner>
+    <itunes:complete>No</itunes:complete>
+    <itunes:explicit>No</itunes:explicit>
+    <item>
+      <title>Is ONCE enough?</title>
+      <itunes:episode>158</itunes:episode>
+      <podcast:episode>158</podcast:episode>
+      <itunes:title>Is ONCE enough?</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">de6e8475-b86a-439d-b5f3-bf3de9fa9a82</guid>
+      <link>https://share.transistor.fm/s/0b397ae3</link>
+
+    <item>
+      <title>How the Acquired podcast grew, and why they switched to Transistor</title>
+      <itunes:episode>157</itunes:episode>
+      <podcast:episode>157</podcast:episode>
+      <itunes:title>How the Acquired podcast grew, and why they switched to Transistor</itunes:title>
+      <itunes:episodeType><!-- full / bonus --></itunes:episodeType>
+      <guid isPermaLink="false">a10da205-8e3b-4c9a-a5b4-016fa29ded9c</guid>
+      <link>https://share.transistor.fm/s/e85b13ce</link>
+      <description>
+        <!-- DESCRIPTION FORMATTED AS HTML -->
+      </description>
+      <content:encoded>
+        <!-- DESCRIPTION FORMATTED AS HTML -->
+      </content:encoded>
+      <pubDate>Thu, 25 Jan 2024 13:50:29 -0800</pubDate>
+      <author>Transistor.fm</author>
+      <enclosure url="https://chrt.fm/track/637E/2.gum.fm/op3.dev/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/e85b13ce/6ac51c44.mp3" length="66140163" type="audio/mpeg"/>
+      <itunes:author>Transistor.fm</itunes:author>
+      <itunes:image href="https://images.transistor.fm/images/episode/1704395/full_1706219333-artwork.jpg"/>
+      <itunes:duration>4132</itunes:duration>
+      <itunes:summary>
+        <!-- DESCRIPTION FORMATTED AS HTML -->
+      </itunes:summary>
+      <itunes:keywords>technology, podcasting, business, saas, software, marketing, bootstrap, bootstrapping, rails, ruby on rails</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+
+      <podcast:person role="Editor" href="URL" img="URL">NAME</podcast:person>
+      <podcast:person role="Host" href="URL" img="URL">NAME</podcast:person>
+      <podcast:person role="Guest" href="URL" img="URL">NAME</podcast:person>
+
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.json" type="application/json" rel="captions"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.txt" type="text/plain"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.srt" type="application/x-subrip" rel="captions"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.vtt" type="text/vtt" rel="captions"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription" type="text/html"/>
+    </item>
+
+  </channel>
+</rss>
+
+<!-- EXAMPLE DESCRIPTION CONTENT
+<![CDATA[
+  <p><a href="https://www.fastcompany.com/90927453/acquired-number-1-tech-podcast-sensation">Fast Company</a> called <a href="https://www.acquired.fm/">Acquired</a> "the #1 tech podcast sensation." I've been a huge fan of the show for years. So, I was surprised when they contacted me and wanted to switch to <a href="https://transistor.fm/?via=buildyoursaas">Transistor</a> for podcast hosting!</p>
+  <p>Since switching, they've had a breakout year. Their clips started showing up everywhere on my social media feed; they had chart-topping episodes on Nintendo, Nike, and Costco, and they interviewed the CEOs of NVIDIA, Uber, and Charlie Munger. </p>
+  <p>And this was the year that Ben Gilbert and David Rosenthal (the co-hosts) both went full-time on the podcast. Podcasting is now their job.</p>
+  <p>With all of that activity, I thought Build your SaaS listeners would be interested in hearing my interview with David about their entire story:</p>
+  <ul>
+    <li>How they got started, how they built momentum over time,</li>
+    <li>how they were able to double their audience every single year since 2015, </li>
+    <li>And how that momentum ended up Attracting an incredibly valuable audience that they've now monetized through sponsorships. </li>
+  </ul>
+  <p>This interview has so much that podcasters, creators, and indie entrepreneurs will find super helpful and inspirational.</p>
+  <p>🔥 <strong>Key moments:</strong></p>
+  <ul>
+    <li>(0:00:00) – A breakout year for Acquired</li>
+    <li>(0:01:45) – What is the Acquired podcast about?</li>
+    <li>(0:02:40) – How the Acquired podcast got started (origin story)</li>
+    <li>(0:07:23) – How Ben and David's co-hosting relationship works</li>
+    <li>(0:09:00) – The 3 big goals that made them want to start Acquired</li>
+    <li>(0:11:38) – How did listeners respond to the first episodes?</li>
+    <li>(0:14:55) – The best reason to start a podcast</li>
+    <li>(0:15:30) – The secret to how Acquired attracts new listeners</li>
+    <li>(0:18:13) – How they got featured in Apple Podcasts, Overcast, Pocket Casts, and Spotify</li>
+    <li>(0:24:18) – How they got their first podcast sponsors (and why it wasn't about making money)</li>
+    <li>(0:27:58) – Why they give their sponsors a white glove, 11-star experience</li>
+    <li>(0:34:13) – How to get more word-of-mouth referrals for your podcast</li>
+    <li>(0:37:00) – Acquired's unconventional approach to podcast ads</li>
+    <li>(0:41:54) – How the Acquired podcast's growth machine works</li>
+    <li>(0:48:05) – Why their NVIDIA podcast episode went viral</li>
+    <li>(0:50:48) – Why they switched from Libsyn to Transistor for podcast hosting</li>
+    <li>(0:57:18) – The rise of the "independent, boutique podcaster."</li>
+    <li>(1:02:27) – "The future of podcasting doesn't belong to Gimlet, NYT, NPR..."</li>
+    <li>(1:06:22) – David Rosenthal's advice to aspiring podcasters</li>
+  </ul>
+  <p><strong>Thanks to our monthly supporters</strong></p>
+  <ul>
+    <li>Pascal from sharpen.page</li>
+    <li>Rewardful.com</li>
+    <li>Greg Park</li>
+    <li>Mitchell Davis from RecruitKit.com.au</li>
+    <li>Marcel Fahle, wearebold.af</li>
+    <li>Bill Condo (@mavrck)</li>
+    <li>Ward from MemberSpace.com</li>
+    <li>Evandro Sasse</li>
+    <li>Austin Loveless</li>
+    <li>Michael Sitver</li>
+    <li>Dan Buda</li>
+    <li>Colin Gray</li>
+    <li>Dave Giunta</li>
+  </ul>
+  <br>
+  <p>🎙️ <em>Podcast hosting is provided by</em> <a href="https://transistor.fm/?via=rubyblend"><em>Transistor.fm</em></a><em>.
+    <br>📺 Learn </em><a href="https://transistor.fm/how-to-start-a-podcast/"><em>how to start your own podcast</em></a><em>!</em></p>
+  <strong><a href="https://www.patreon.com/jonjustin" rel="payment" title="★ Support this podcast on Patreon ★">★ Support this podcast on Patreon ★</a></strong>
+]]>
+-->

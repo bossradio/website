@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://feeds.transistor.fm/stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="https://boss.radio/podcast" title="MP3 Audio"/>
+    <!-- <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/> -->
+
+    <!-- PODCAST TAGS -->
+    <podcast:podping usesPodping="true"/>
+    <!-- <podcast:guid>778116ac-6b1e-5ae2-b037-26a7ff2aee64</podcast:guid> NOT SURE WHERE THIS COMES FROM -->
+    <podcast:locked owner="hello@boss.radio">yes</podcast:locked>
+    <!-- <podcast:trailer pubdate="Tue, 19 Jun 2018 12:00:00 -0700" url="https://chrt.fm/track/637E/2.gum.fm/op3.dev/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/cd78d193/5d907ace.mp3" length="1116291" type="audio/mpeg">Teaser: I don't want to get crushed by the VC monster</podcast:trailer> -->
+    <!-- <podcast:funding url="https://www.patreon.com/">Support this podcast on Patreon</podcast:funding> -->
+    <!-- <podcast:person role="Editor" href="PERSONAL-SITE-URL" img="IMAGE-URL">NAME</podcast:person> -->
+    <!-- <podcast:person role="Host" href="PERSONAL-SITE-URL" img="IMAGE-URL">NAME</podcast:person> -->
+
+    <!-- ITUNES -->
+    <itunes:new-feed-url>https://boss.radio/podcast</itunes:new-feed-url>
+    <itunes:subtitle>Interested in building your own SaaS company.</itunes:subtitle>
+    <itunes:keywords>product, product design, management, culture, philosophy, technology, engineering, teamwork</itunes:keywords>
+    <itunes:summary>Interested in building your own SaaS company? Follow the journey of Transistor.fm as they bootstrap a podcast hosting startup.</itunes:summary>
+    <itunes:image href="https://boss.radio/resources/web-preview-simple.png"/>
+    <itunes:category text="Business">
+      <itunes:category text="Marketing"/>
+    </itunes:category>
+    <itunes:category text="Technology"/>
+    <itunes:author>Boss.Radio</itunes:author>
+    <itunes:owner>
+      <itunes:name>Boss.Radio</itunes:name>
+    </itunes:owner>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:complete>No</itunes:complete>
+
+    <!-- SHOW INFO -->
+    <title>3 Bosses Walk Into A Room</title>
+    <description>...and nothing gets done.</description>
+    <copyright>© 2024 Boss.Radio</copyright>
+    <language>en</language>
+    <link>https://boss.radio</link>
+    <image>
+      <url>https://boss.radio/resources/web-preview-simple.png</url>
+      <title>Boss.Radio Podcast</title>
+      <link>https://boss.radio</link>
+    </image>
+
+    <!-- DYNAMIC SHOW INFO -->
+
+    <!-- latest episode date
+         Thu, 25 Jan 2024 13:50:29 -0800
+         moment().format('ddd, D MMM YYYYY hh:mm:ss ZZ')
+    -->
+    <pubDate><!-- DATE^ --></pubDate>
+    <lastBuildDate><!-- DATE^ --></lastBuildDate>
+
+    <!-- EPISODE LIST -->
+    <item>
+      <!-- ITUNES METADATA -->
+      <itunes:episodeType><!-- full / bonus --></itunes:episodeType>
+      <itunes:title><!-- EPISODE TITLE --></itunes:title>
+      <itunes:episode><!-- INTEGER --></itunes:episode>
+      <itunes:author>Boss.Radio</itunes:author>
+      <itunes:image href="EPISODE_ARTWORK_URL"/> <!-- reference was 3000x3000 -->
+      <itunes:duration><!-- episode length in seconds --></itunes:duration>
+      <itunes:keywords><!-- episode plain-text keywords --></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+
+      <!-- STANDARD METADATA -->
+      <title><!-- EPISODE TITLE --></title>
+      <podcast:episode><!-- INTEGER --></podcast:episode>
+      <author>Boss.Radio</author>
+      <link><!-- EPISODE LANDING PAGE URL --></link>
+      <!-- <guid isPermaLink="false">a10da205-8e3b-4c9a-a5b4-016fa29ded9c</guid> NOT SURE WHERE THIS COMES FROM; DIFFERENT FROM ABOVE -->
+      <pubDate><!-- DATE --></pubDate>
+      <enclosure url="EPISODE_AUDIO_FILE_ADDRESS" length="66140163" type="audio/mpeg"/> <!-- not sure what '66140163' refers to -->
+
+      <!-- PEOPLE -->
+      <podcast:person role="Editor" href="URL" img="URL">NAME</podcast:person>
+      <podcast:person role="Host" href="URL" img="URL">NAME</podcast:person>
+      <podcast:person role="Guest" href="URL" img="URL">NAME</podcast:person>
+
+      <!-- TRANSCRIPTS -->
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.json" type="application/json" rel="captions"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.txt" type="text/plain"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.srt" type="application/x-subrip" rel="captions"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription.vtt" type="text/vtt" rel="captions"/>
+      <podcast:transcript url="https://share.transistor.fm/s/e85b13ce/transcription" type="text/html"/>
+
+      <!-- DESCRIPTION FORMATTED AS HTML || example below -->
+      <itunes:summary><!-- description --></itunes:summary>
+      <description><!-- description --></description>
+      <content:encoded><!-- description --></content:encoded>
+    </item>
+
+  </channel>
+</rss>
+
+<!-- EXAMPLE DESCRIPTION CONTENT
+<![CDATA[
+  <p><a href="https://www.fastcompany.com/90927453/acquired-number-1-tech-podcast-sensation">Fast Company</a> called <a href="https://www.acquired.fm/">Acquired</a> "the #1 tech podcast sensation." I've been a huge fan of the show for years. So, I was surprised when they contacted me and wanted to switch to <a href="https://transistor.fm/?via=buildyoursaas">Transistor</a> for podcast hosting!</p>
+  <p>Since switching, they've had a breakout year. Their clips started showing up everywhere on my social media feed; they had chart-topping episodes on Nintendo, Nike, and Costco, and they interviewed the CEOs of NVIDIA, Uber, and Charlie Munger. </p>
+  <p>And this was the year that Ben Gilbert and David Rosenthal (the co-hosts) both went full-time on the podcast. Podcasting is now their job.</p>
+  <p>With all of that activity, I thought Build your SaaS listeners would be interested in hearing my interview with David about their entire story:</p>
+  <ul>
+    <li>How they got started, how they built momentum over time,</li>
+    <li>how they were able to double their audience every single year since 2015, </li>
+    <li>And how that momentum ended up Attracting an incredibly valuable audience that they've now monetized through sponsorships. </li>
+  </ul>
+  <p>This interview has so much that podcasters, creators, and indie entrepreneurs will find super helpful and inspirational.</p>
+  <p>🔥 <strong>Key moments:</strong></p>
+  <ul>
+    <li>(0:00:00) – A breakout year for Acquired</li>
+    <li>(0:01:45) – What is the Acquired podcast about?</li>
+    <li>(0:02:40) – How the Acquired podcast got started (origin story)</li>
+    <li>(0:07:23) – How Ben and David's co-hosting relationship works</li>
+    <li>(0:09:00) – The 3 big goals that made them want to start Acquired</li>
+    <li>(0:11:38) – How did listeners respond to the first episodes?</li>
+    <li>(0:14:55) – The best reason to start a podcast</li>
+    <li>(0:15:30) – The secret to how Acquired attracts new listeners</li>
+    <li>(0:18:13) – How they got featured in Apple Podcasts, Overcast, Pocket Casts, and Spotify</li>
+    <li>(0:24:18) – How they got their first podcast sponsors (and why it wasn't about making money)</li>
+    <li>(0:27:58) – Why they give their sponsors a white glove, 11-star experience</li>
+    <li>(0:34:13) – How to get more word-of-mouth referrals for your podcast</li>
+    <li>(0:37:00) – Acquired's unconventional approach to podcast ads</li>
+    <li>(0:41:54) – How the Acquired podcast's growth machine works</li>
+    <li>(0:48:05) – Why their NVIDIA podcast episode went viral</li>
+    <li>(0:50:48) – Why they switched from Libsyn to Transistor for podcast hosting</li>
+    <li>(0:57:18) – The rise of the "independent, boutique podcaster."</li>
+    <li>(1:02:27) – "The future of podcasting doesn't belong to Gimlet, NYT, NPR..."</li>
+    <li>(1:06:22) – David Rosenthal's advice to aspiring podcasters</li>
+  </ul>
+  <p><strong>Thanks to our monthly supporters</strong></p>
+  <ul>
+    <li>Pascal from sharpen.page</li>
+    <li>Rewardful.com</li>
+    <li>Greg Park</li>
+    <li>Mitchell Davis from RecruitKit.com.au</li>
+    <li>Marcel Fahle, wearebold.af</li>
+    <li>Bill Condo (@mavrck)</li>
+    <li>Ward from MemberSpace.com</li>
+    <li>Evandro Sasse</li>
+    <li>Austin Loveless</li>
+    <li>Michael Sitver</li>
+    <li>Dan Buda</li>
+    <li>Colin Gray</li>
+    <li>Dave Giunta</li>
+  </ul>
+  <br>
+  <p>🎙️ <em>Podcast hosting is provided by</em> <a href="https://transistor.fm/?via=rubyblend"><em>Transistor.fm</em></a><em>.
+    <br>📺 Learn </em><a href="https://transistor.fm/how-to-start-a-podcast/"><em>how to start your own podcast</em></a><em>!</em></p>
+  <strong><a href="https://www.patreon.com/jonjustin" rel="payment" title="★ Support this podcast on Patreon ★">★ Support this podcast on Patreon ★</a></strong>
+]]>
+-->
+
+
+<!-- GOOGLE EXAMPLE FEED - https://support.google.com/podcast-publishers/answer/9889544?ref_topic=10308237#namespaces -->
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Dafna's Zebra Podcast</title>
+    <itunes:owner>
+        <itunes:email>dafna@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Dafna</itunes:author>
+    <description>A pet-owner's guide to the popular striped equine.</description>
+    <itunes:image href="https://www.example.com/podcasts/dafnas-zebras/img/dafna-zebra-pod-logo.jpg"/>
+    <language>en-us</language>
+    <link>https://www.example.com/podcasts/dafnas-zebras/</link>
+    <item>
+      <title>Top 10 myths about caring for a zebra</title>
+      <description>Here are the top 10 misunderstandings about the care, feeding, and breeding of these lovable striped animals.</description>
+      <pubDate>Tue, 14 Mar 2017 12:00:00 GMT</pubDate>
+      <enclosure url="https://www.example.com/podcasts/dafnas-zebras/audio/toptenmyths.mp3"
+                 type="audio/mpeg" length="34216300"/>
+      <itunes:duration>30:00</itunes:duration>
+      <guid isPermaLink="false">dzpodtop10</guid>
+    </item>
+    <item>
+      <title>Keeping those stripes neat and clean</title>
+      <description>Keeping your zebra clean is time consuming, but worth the effort.</description>
+      <pubDate>Fri, 24 Feb 2017 12:00:00 GMT</pubDate>
+      <enclosure url="https://www.example.com/podcasts/dafnas-zebras/audio/cleanstripes.mp3"
+                 type="audio/mpeg" length="26004388"/>
+      <itunes:duration>22:48</itunes:duration>
+      <guid>dzpodclean</guid>
+    </item>
+  </channel>
+</rss>
+ -->
