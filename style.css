@@ -63,6 +63,7 @@ a {
   text-decoration:none;
 }
 a * {cursor:pointer!important;}
+a[href=""] {display:none!important;}
 b {
   font-weight:700;
 }
@@ -123,6 +124,9 @@ section.links div {
 section.links div:last-of-type {
   margin-bottom:3em;
 }
+section.links span.divider {
+  display:none;
+}
 
 section.links a {
   border-radius:16px;
@@ -166,6 +170,9 @@ section.links a:hover label {
 
 /* min-width */
 @media(min-width:768px) {
+  section.links span.divider {
+    display:block;
+  }
   section.links div.shelf {
     background-color:#ac85dd30;
     border:1px solid var(--bg-tertiary-alpha);
