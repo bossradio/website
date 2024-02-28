@@ -181,6 +181,12 @@ section.links a:hover label {
     display:block;
   }
   section.links div.shelf {
+    /*background-image:radial-gradient(circle, #62388d66 15%, #62388d44 48%, #3a1e5900 72%);
+    background-size:500px 500px;
+    background-repeat:no-repeat;
+    background-position-x:var(--mousex);
+    background-position-y:var(--mousey);*/
+
     background-color:#ac85dd30;
     border:1px solid #cf96ffc7;
     border-radius:30px;
